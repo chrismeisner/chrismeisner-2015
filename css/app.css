@@ -1,15 +1,43 @@
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Inconsolata", Menlo, Roboto, monospace, sans-serif;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #0a0a0a;
-  background: #fefefe; 
-  }
-  
- 
+::selection {
+  background: #d9fbd7;
+}
 
+
+h3 {
+	font-size: 2em;
+	padding-top: 8%;
+}
+
+
+h4 {
+	font-family: "Apercu Mono Regular", "Inconsolata", Menlo, Roboto, monospace, sans-serif;	
+	padding-top: 20%;
+}
+
+h4 a {
+	text-decoration: none;
+}
+
+body {
+	font-size: 0.85em;
+	padding: 0;
+	margin: 0;
+	font-family: "Apercu Mono Regular", "Inconsolata", Menlo, Roboto, monospace, sans-serif;
+	font-weight: 400;
+	line-height: 4;
+	color: #333333; 
+	background: #fafafa;  
+}
+
+p {
+	line-height: 1.75; 
+}
+  
+
+bodyspan {
+	background-color: yellow; 
+}
+ 
 
 h1 {
   font-family: "Inconsolata", Menlo, Roboto, monospace, sans-serif;
@@ -21,3 +49,18 @@ h4 {
   font-family: "Inconsolata", Menlo, Roboto, monospace, sans-serif;
   font-weight: 400;
 	}
+	
+
+a {
+  color: #333333;
+  text-decoration: underline;
+  background-color: #;  
+  line-height: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+ }
+  
+a:hover, a:focus {
+    color: #1e1e1e; 
+    background-color: #fdf6ae;
+    }	
