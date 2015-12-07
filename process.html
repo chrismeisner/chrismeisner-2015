@@ -23,43 +23,44 @@
 
 
 
-<!-- 
-
 <script>
-
-function getStylesheet() {
-var currentTime = new Date().getHours();
-if (0 <= currentTime&&currentTime < 6) {
-document.write("<link rel='stylesheet' href='css/night.css' type='text/css'>");
-}
-if (6 <= currentTime&&currentTime < 9) {
-document.write("<link rel='stylesheet' href='css/morning.css' type='text/css'>");
-}
-if (9 <= currentTime&&currentTime < 17) {
-document.write("<link rel='stylesheet' href='css/day.css' type='text/css'>");
-}
-if (17 <= currentTime&&currentTime < 21) {
-document.write("<link rel='stylesheet' href='css/evening.css' type='text/css'>");
-}
-if (21 <= currentTime&&currentTime <= 24) {
-document.write("<link rel='stylesheet' href='css/night.css' type='text/css'>");
-}
-}
-
-getStylesheet();
-
+	
+	function getStylesheet() {
+	var currentTime = new Date().getHours();
+	
+	if (0 <= currentTime&&currentTime < 6) {
+	document.write("<link rel='stylesheet' href='css/night.css' type='text/css'>");
+	}
+	
+	if (6 <= currentTime&&currentTime < 19) {
+	document.write("<link rel='stylesheet' href='css/day.css' type='text/css'>");
+	}
+	
+	if (19 <= currentTime&&currentTime <= 24) {
+	document.write("<link rel='stylesheet' href='css/night.css' type='text/css'>");
+	}}
+	
+	getStylesheet();
 
 </script>
 
--->
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-70832130-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </head>
 
 <body>
-
-<?php include_once("analyticstracking.php") ?>
+	
+<?php include_once("analyticstracking.php") ?>	
 
 <div class="row">	
 	<div class="small-10 small-offset-1 columns">
@@ -79,7 +80,7 @@ getStylesheet();
 	
 	<p>I should have this written up l8r this week. But in the mean time just believe I'm <a href="https://www.youtube.com/watch?v=u4ZoJKF_VuA" target="_blank">this profound and articulate</a>.</p>
 	
-	<p><img src="img/writing.gif" style="width: 120px; margin-top: 6%;"></p>
+	<p><img src="img/writing.gif" style="width: 68px; margin-top: 6%;"></p>
 		
 				     
 			  		
